@@ -2,7 +2,7 @@
 
 # languages
 
-- [C](#) C programming
+- [C](#c-object-oriented-programming-language) C programming
 - [C++](#c-1) C++ programming
 - [Go](#go-language) Go lang
 - [python](#python) Python programming
@@ -10,7 +10,7 @@
 - [typescript](#typescript) Typescript programming
 - [nodejs](#nodejs) Node.js programming
 
-## C
+## C (object-oriented programming language)
 Step 1: first need to available **gcc**  to compile a c code.
 open terminal and run the following command to check if could not found then install **gcc**
 ```sh
