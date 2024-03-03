@@ -1,5 +1,7 @@
 # How to run or compile a Hello world ( simple programming) with terminal 
 
+# languages
+
 - [C](#) C programming
 - [C++](#c-1) C++ programming
 - [Go](#go-language) Go lang
