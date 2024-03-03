@@ -1,0 +1,1 @@
+print("Try https://programiz.pro")
