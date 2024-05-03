@@ -1,4 +1,4 @@
-# How to run or compile a Hello world ( simple programming) with terminal 
+# How to run or compile a Hello world ( simple programming) with a terminal 
 
 # languages
 
@@ -7,20 +7,17 @@
 - [Go](#go-language) Go lang
 - [python](#python) Python programming
 - [php](#php) PHP programming
-- [typescript](#typescript) Typescript programming
-- [nodejs](#nodejs) Node.js programming
+- [Typescript](#typescript) Typescript programming
+- [NodeJS](#nodejs) Node.js - JavaScript runtime environment
 
 ## C (object-oriented programming language)
-Step 1: first need to available **gcc**  to compile a c code.
-open terminal and run the following command to check if could not found then install **gcc**
+**Step 1**: First you have to make sure available **gcc**  to compile a c code. <br>
+open the terminal and run the following command to check **gcc** is already installed or not
 ```sh
 gcc --version
 ```
-Step 2: Create a file like hello.c or use terminal to create a file
-```sh
-touch hello.c
-```
-Step 3: Simple code for test run
+**Step 2**: Create a new file e.g.  hello.c or example.c
+**Step 3**: Simple code for testing c programming language
 ```c
 #include<stdio.h>
 int main(void){
@@ -28,25 +25,22 @@ int main(void){
  return 0;
 }
 ```
-Step 4: run the following command on terminal
+**Step 4**: run the following command on the terminal to compile the code
 ```sh
 gcc hello.c -o output && ./output
 ```
-remember to change hello to your file if you have different name  and if you must be run terminal as same directory where is the file (hello.c)
+remember to change hello to your file if you have a different name  and if you must run the terminal in the same directory where is the file (hello.c)
 
 
 ## C++
 Step 1: first need to available **g++**  to compile a c code.
-open terminal and run the following command to check if could not found them install **g++**
+open the terminal and run the following command **g++** is already available on your computer if it doesn't exist install g++
 ```sh
 g++ --version
 ```
-Step 2: Create a file like **hello.cpp** 
-or use terminal to create a file
-```sh
-touch hello.cpp
-```
-Step 3: Simple code for test run
+Step 2: Create a file like **hello.cpp** or example.cpp <br>
+
+Step 3: Simple code for a test run
 ```c
 #include <iostream>
 using namespace std;
@@ -56,31 +50,24 @@ int main() {
     return 0;
 }
 ```
-Step 4: run the following command on terminal
+Step 4: run the following command on the terminal
 ```sh
 g++ hello.cpp -o output && ./output
 ```
-remember to change hello to your file if you have different name  and if you must be run terminal as same directory where is the file (hello.c)
+remember to change hello to your file if you have a different name  and if you must run the terminal in the same directory where is the file (hello.c)
 
 
 
 
 ## go language
 Step 1: Make sure **go lang**  is available in your system.
-if you dont have already installed go language then install.
+if you have already installed Go language then go ahead.
 to check the go language is available in your system run the following command
 ```sh
 gcc --version
 ```
-then the output should look like this :
-```sh
-go version go1.13.5 linux/amd64
-```
-step 2: We need to create a file you can chose any name (hello.go e.g.).
-if you would like to create the file with terminal type the following command
-```sh
-touch hello.go
-```
+
+step 2: We need to create a file you can choose any name (hello.go e.g.) or example.go
 
 step 3: write a simple code or past this code in your file hello.go
 ```go
@@ -92,17 +79,17 @@ func main() {
     fmt.Println("Hello, I am GO programming language!")
 }
 ```
-Step 4: finally the the following command in your terminal to get output of code
+Step 4: Finally the the following command in your terminal to get the output of the code
 ```sh
 go run hello.go
 ```
-remember to change hello to your file if you have different name  and if you must be run terminal as same directory where is the file (hello.c)
+remember to change hello to your file if you have a different name  and if you must run the terminal in the same directory where is the file (hello.c)
 
 
 
 ## python
 Step 1: Make sure **python or python3**  is available in your system.
-if you dont have already installed then install.
+if you don't have already installed then install it.
 to check the go language is available in your system run the following command
 ```sh
 python --version
@@ -112,17 +99,13 @@ or
 python3 --version
 ```
 
-step 2: We need to create a file you can chose any name (hello.py e.g.).
-to create the file by terminal
-```sh
-touch hello.py
-```
+step 2: We need to create a file you can choose any name e.g. (hello.py)
 
-step 3: write a simple code or past this code in your file hello.go
+step 3: write a simple code or past this code in hello.py 
 ```py
 print("Hello, I am python programming language! ")
 ```
-Step 4: finally run the following command in your terminal to get output of code
+Step 4: Finally run the following command in your terminal to get the output of the code
 ```sh
 python hello.py
 ```
@@ -130,18 +113,18 @@ or
 ```sh
 python3 hello.py
 ```
-remember to change hello to your file if you have different name  and if you must be run terminal as same directory where is the file (hello.c)
+remember to change hello to your file if you have a different name  and if you must run terminal in same directory where is the file (hello.c)
 
 
 
 ## php
 Step 1: Make sure **php**  is available in your system.
-if you dont have already installed php language then install [php](http://php.net).
+if you don't have already installed php language then install [php](http://php.net).
 to check the go language is available in your system run the following command
 ```sh
 php --version
 ```
-step 2: We need to create a file you can chose any name (hello.php e.g.).
+step 2: We need to create a file you can choose any name (hello.php e.g.).
 create with terminal
 ```sh
 touch hello.go
@@ -152,7 +135,7 @@ step 3: write a simple code or past this code in your file hello.go
 <?php
 echo "Hello, I am php programming language!";
 ```
-Step 4: finally the the following command in your terminal to get output of code
+Step 4: Finally the the following command in your terminal to get the output of the code
 ```sh
 php hello.php
 ```
